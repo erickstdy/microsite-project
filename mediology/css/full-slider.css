@@ -1,0 +1,155 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@-webkit-keyframes zoom {
+  0% {-webkit-transform: scale(1);}
+  50% {-webkit-transform: scale(1.2);}
+  100% {-webkit-transform: scale(1);}
+}
+
+@keyframes zoom {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(1);}
+}
+
+.carousel-item > img {
+    -webkit-animation: zoom 30s infinite !important;
+    animation: zoom 30s infinite !important;
+}
+
+.titlepage{
+    position: absolute;
+    display: block;
+    z-index: 9999;
+    top: 41%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+.titlepage2{
+    position: absolute;
+    display: block;
+    z-index: 9999;
+    top: 45%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 11vw;
+    font-weight: bolder;
+}
+.titlepage3{
+    position: absolute;
+    display: block;
+    z-index: 9999;
+    top: 45%;
+    left: 12%;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+}
+.titlepage4{
+    position: absolute;
+    display: block;
+    z-index: 9999;
+    top: 50%;
+    left: 12%;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar.compressed {
+  background: #ffffff;
+  color: #6dcc7c;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+}
+.shrink{
+    width: 100px !important;
+    transition: all 0.5s;
+}
+
+.nav-link:hover{
+    color: white !important;
+    background-color: #19255b;
+    transition: all 0.1s ease-in;
+    border-radius: 5px;
+}
+
+/*
+.nav-link.active{
+    font-weight: bold !important;
+}
+*/
+
+#company>.btn{
+    position: absolute;
+    display: block;
+    z-index: 9999;
+    top: 57%;
+    left: 12%;
+    text-align: left;
+    background-color: #19255b;
+    border-color: #19255b;
+}
+
+#form-contact>form>.btn{
+    float: right !important;
+}
+
+/* Center the loader */
+.pre-loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../image/logo.png) center no-repeat #fff;
+}
+
+#form-contact{
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    width: 400px;
+    height: auto;
+    background-color: #19255b;
+    color: white;
+    border-radius: 5px;
+    z-index: 9999;
+    padding: 20px;
+    box-shadow: -8px 1px 64px 0px #343a40;
+}
+#form-contact h3{
+    padding: 0px 0 20px 0;
+}
+
+#footertext{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    color: white;
+    font-size: 0.5rem;
+}
+
